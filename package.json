@@ -1,0 +1,37 @@
+{
+  "name": "netflicks",
+  "version": "1.0.0",
+  "description": "netflix clone practice on my own using vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "deploy": "npm run build&&gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iborymagic/netflicks.git"
+  },
+  "author": "Hyun Cheol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iborymagic/netflicks/issues"
+  },
+  "homepage": "https://iborymagic.github.io/netflicks",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
