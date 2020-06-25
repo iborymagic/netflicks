@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="#">
+    <title>Netflicks</title>
+</head>
+<body>
+    <div class="blackout"></div>
+    <div class="gradient">
+    </div>
+    <img class="background in">
+    
+    <div class="trailer-page">
+        <!--
+            <iframe width="100%" height="100%" class="trailer" allow="autoplay; fullscreen" frameborder="0" allowfullscreen>
+            </iframe>
+        -->
+        <div class="trailer-gradient"></div>
+    </div>
+    
+    <div class="details-page out">
+        <!--
+            <div class="details-gradient"></div>
+            <div class="details-overview">
+                <p class="details-overview-p"></p>
+                <p class="details-director"></p>
+                <p class="details-runtime"></p>
+            </div>
+            <div class="details-cast"></div>
+        -->
+    </div>
+    
+    <div class="upper">
+        <div class="upper-menu">
+            <ul class="upper-menu-ul">
+                <li class="upper-menu-li upper-menu-overview">
+                    <p class="upper-menu-p upper-menu-overview focused">Overview</p>
+                </li>
+                <li class="upper-menu-li upper-menu-trailer">
+                    <p class="upper-menu-p upper-menu-trailer unfocused">Trailer</p>
+                </li>
+                <li class="upper-menu-li upper-menu-details">
+                    <p class="upper-menu-p upper-menu-details unfocused">Details</p>
+                </li>
+            </ul>
+        </div>
+        <div class="upper-logo">
+            <a href="#">
+                <img class="netflix-logo" src="https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg" width="130px">
+            </a>
+        </div>
+        <button class="upper-signin">SIGN IN</button>
+    </div>
+    <div class="wrapper">
+        <div class="middle">
+            <div class="middle-upper"></div>
+            <div class="middle-lower">
+                <div class="middle-lower-movie in">
+                    <h1 class="movie-title"></h1>
+                    <div class="movie-genres">
+                        <ul class="movie-genres-ul">
+
+
+
+                        </ul>
+                    </div>
+                    <div class="movie-stars-year">
+                        <div class="movie-stars">
+                            <span class="movie-star"><img src="./img/star-outline.svg" id="movie-star-1"></span>
+                            <span class="movie-star"><img src="./img/star-outline.svg" id="movie-star-2"></span>
+                            <span class="movie-star"><img src="./img/star-outline.svg" id="movie-star-3"></span>
+                            <span class="movie-star"><img src="./img/star-outline.svg" id="movie-star-4"></span>
+                            <span class="movie-star"><img src="./img/star-outline.svg" id="movie-star-5"></span>
+                        </div>
+                        <p class="movie-year">2020</p>
+                    </div>
+                    <div class="movie-buttons">
+                        <button class="movie-buttons-now">WATCH NOW</button>
+                        <button class="movie-buttons-info">VIEW INFO</button>
+                    </div>
+                </div>
+                <div class="middle-lower-posters">
+                    <ul class="middle-lower-posters-ul">
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="lower">
+            <div class="lower-wishlist">
+                <button class="lower-wishlist-button">+ ADD TO WISHLIST</button>
+            </div>
+            <div class="lower-buttons">
+                <span class="lower-buttons" id="lower-buttons-left"><img src="./img/left-arrow.svg"></span>
+                <span class="lower-buttons" id="lower-buttons-right"><img src="./img/right-arrow.svg"></span>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/bundle.js"></script></body>
+</html>
