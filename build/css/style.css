@@ -572,7 +572,7 @@ body {
     top : 0;
     left: 0;
     opacity: 0;
-    transform : translateX(100%);
+    transform : translateX(0%);
     background: black;
     z-index : -1;
     transition : 2s;
