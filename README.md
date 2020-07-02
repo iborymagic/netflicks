@@ -16,3 +16,6 @@ but I'm proud that I made this on my own :D
 꼴도보기 싫어서 그냥 다음부터 깔끔하게 짜는걸로.. ㅋㅋ;;  
 
 Carousel 효과가 겁나 어렵네요  
+
+아 그리고 아직 크로스 브라우징 공부를 안해서
+크롬으로밖에 안된답니다. ㅎㅎ
