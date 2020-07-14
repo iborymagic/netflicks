@@ -1,6 +1,7 @@
 # Netflicks
 ### Design from [Deniz Kurtcepe](https://dribbble.com/shots/4240842-Netflix-Home-Page)
 
+[Visit!](https://iborymagic.github.io/netflicks/)
 Made my own movie website(Netflix clone).  
 This is my first project without any lecture.  
 It's quite dirty and slow, and doesn't have any fancy functions,  
