@@ -11,5 +11,5 @@ but I'm proud that I made this on my own :D
 ![capture2](https://user-images.githubusercontent.com/42052110/85828796-24608600-b7c4-11ea-8534-9df1ea088793.PNG)
 
 ---
-만 구현한 사이트입니당.  
+프론트만 구현한 사이트입니당.  
 디자인은 Dribbble의 'Deniz Kurtcepe'가 만든 디자인을 참고했어요.  
